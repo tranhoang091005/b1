@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.1"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-17 02:31:41 AM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjU7MDg6MDY6NDQgUE07MjUyNw=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjU7MDg6NDM6MDMgUE07MTsyNjMx"/>
+        <attribute name="edited" value="YXN1cztMQVBUT1AtNzdRTzVDQ1M7MjAyNC0xMS0xNzswMjozMTo0MSBBTTsyOzI4NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vi&#234;n:Tr&#7847;n Danh Ho&#224;ng&quot;" newline="True"/>
+            <output expression="&quot;MSSV:235752021610064&quot;" newline="True"/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="radius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Please enter the radius of a circle&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14*radius^2"/>
+            <output expression="&quot;The area is&quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
